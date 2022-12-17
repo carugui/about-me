@@ -7,7 +7,6 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 10px;
 }
 
 h1,
@@ -232,6 +231,13 @@ main {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+    isolation: isolate;
 }
 
 .titular-seccion {
