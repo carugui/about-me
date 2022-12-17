@@ -23,6 +23,7 @@ h1,
 .h1 {
     font-family: 'VT323', monospace;
     font-size: 60px;
+    text-transform: uppercase;
     color: #FC8455;
 }
 
@@ -215,20 +216,15 @@ textarea {
 
 
 /* PROPIO ESTILO, SOLO PARA ESTA PÁGINA */
-main {
-    max-width: 800px;
-    padding: 35px;
-    margin: 40px auto;
-    background-color: #FCF3EB;
-    border-radius: 25px;
-    border: 2px solid #3A3A3A;
-}
 
 .landing {
     background-color: #FCF3EB;
     background-image: url("../images/cielo-azul.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -238,6 +234,15 @@ main {
     padding: 0px;
     gap: 21px;
     isolation: isolate;
+}
+
+.section-quien-soy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
 }
 
 .titular-seccion {
