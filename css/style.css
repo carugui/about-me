@@ -11,6 +11,13 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+  
+section {
+    flex: 0 0 auto;
 }
 
 h1,
@@ -241,6 +248,7 @@ textarea {
     gap: 100px;
     margin: 0px 120px;
     text-align: right;
+    width: 80vw;
 }
 
 .div-min-width {
